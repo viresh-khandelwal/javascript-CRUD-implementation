@@ -1,0 +1,29 @@
+{
+    "favorite-songs": [
+        {
+            "id": "1",
+            "title": "nothing on you",
+            "singer": "bruno mars"
+        },
+        {
+            "id": "2",
+            "title": "somewhere in brooklyn",
+            "singer": "bruno mars"
+        },
+        {
+            "id": "3",
+            "title": "galway girl",
+            "singer": "Ed sheeren"
+        },
+        {
+            "id": "4",
+            "title": "thinking out loud",
+            "singer": "Ed sheeren"
+        },
+        {
+            "id": "5",
+            "title": "don't go breakin my heart",
+            "singer": "Elton john"
+        }
+    ]
+}
