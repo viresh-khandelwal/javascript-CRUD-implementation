@@ -11,6 +11,8 @@
     <h1>
         favourite Songs
     </h1>
+    <input type="text" oninput="handleSearch()" class="filter"/>
+    <div class="table-container">
     <table id="playlist">
         <thead>
             <th>
@@ -30,6 +32,12 @@
         <tbody id="playlist-body">
         </tbody>
     </table>
+    </div>
+    <div id="form-container">
+    <form>
+        <input type="text"/>
+    </form>
+    </div>
 </body>
 
 </html>

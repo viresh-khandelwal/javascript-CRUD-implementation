@@ -3,3 +3,18 @@ table, th, td{
     border-collapse: collapse;
     padding: 5px;
 }
+
+.table-container{
+    display: inline-block;
+}
+
+#form-container{
+    display: none;
+    border-left: 1px solid black;
+    margin-left: 20px
+}
+
+.filter{
+    display:block;
+    margin-bottom: 10px;
+}
