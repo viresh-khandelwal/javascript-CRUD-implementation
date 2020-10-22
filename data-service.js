@@ -42,9 +42,18 @@ function handleSearch(){
 
 function openForm(id){
     console.log(id)
+    song = tableData.find((x) => { return x.id == id});
+    document.getElementById("form-container").style.display = "inline-block";
+    document.getElementById("songTitle").setAttribute('value',song.title);
+    document.getElementById("singerName").setAttribute('value',song.singer);
 }
 
 function deleteSong(id){
   console.log(id);
+}
+
+function handleSubmit(){
+    event.preventDefault();
+    console.log(event);
 }
 

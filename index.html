@@ -34,8 +34,18 @@
     </table>
     </div>
     <div id="form-container">
-    <form>
-        <input type="text"/>
+    <form onsubmit="handleSubmit()">
+        <div>
+         <label>Title: </label>
+         <input type="text" id="songTitle" required/>
+        </div>
+        <div>
+         <label>Singer: </label> 
+         <input type="text" id="singerName" required/>
+        </div>
+        <div>
+            <button type="submit">update</button>
+        </div>
     </form>
     </div>
 </body>
